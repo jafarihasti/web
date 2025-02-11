@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "shulder";
+    src: url(font/Big_Shoulders_Display/BigShouldersDisplay-Bold.ttf);
+    
+}
+
+@font-face {
+    font-family: "deca";
+    src: url(font/Lexend_Deca/LexendDeca-Regular.woff2);
+}
+
+:root{
+    --white: white;
+    --orange: #e38826;
+    --blue: #006970;
+    --green:#004241;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.columns{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin-top: 100PX;
+
+    
+}
+
+.column{
+    display: flex;
+    flex: 2;
+    justify-content:center;
+}
+
+.card{
+
+  padding: 50px;
+  color: var(--white);
+}
+
+.column:first-child .card{
+    padding: 50px;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+.column:last-child .card{
+
+    padding: 50px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+}
+
+.card-sedan{
+    background-color: var(--orange);
+}
+
+.card-suvs{
+    background-color: var(--blue);
+}
+
+.card-luxury{
+    background-color: var(--green);
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-family: "shulder";
+    font-weight: 700;
+    
+}
+
+.card-description{
+    line-height: 3;
+    font-family: "deca";
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: unset;
+    color: unset;
+
+}
+
+.card-link{
+    margin: 0 0 auto auto;
+    text-align: center;
+    background: var(--white);
+    color: var(--orange);
+    padding: 10px 20px ;
+    border-radius: 25px;
+}
+
+.card-link:hover{
+    background: none;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 25px;
+}
