@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+    
+}
+    
+    
+@font-face{
+    font-family:'shabnam' ;
+    src: url(font/Shabnam-Medium-WOL.ttf);
+  }
+  
+  @font-face{
+    font-family:'bold' ;
+    src: url(font/Vazir-Bold.ttf);
+  }
+  
+  
+  @font-face{
+    font-family:'vazir' ;
+    src: url(font/Vazir-Medium.ttf);
+  }
+  
+  
+  @font-face{
+    font-family:'shabnamttf' ;
+    src: url(font/Shabnam-Thin-WOL.ttf);
+  }
+    
+    body {
+      
+      margin: 20px;
+      
+    }
+
+ 
+    .header {
+      background: white;
+      padding-bottom: 40px;
+    }
+    
+    .top-banner {
+      background: orange;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      margin:20px;
+      border-radius:7px;
+      font-weight: bold;
+      font-family: 'shabnam';
+      font-size: 18px;
+    }
+    
+    .img-logo{
+      width: 43px;
+      margin-right: 22px;
+      height: 43px;
+    
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin:20px;
+      font-size: 18px;
+      font-family:'Vazir' ;
+      border-bottom: 1px solid #ddd;
+    
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin-left: 51%;
+      font-size: 18px;
+      font-family: 'vazir';
+    }
+    
+    .home{
+      background:#f2f0f0;
+        width: 60px;
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius:5px;
+        padding:4px;
+    }
+    .nav-links li {
+      cursor: pointer;
+    }
+    
+    .login button {
+      
+        margin-right: 12px;
+        width: 82px;
+        height: 46px}
+    
+    .login{
+      margin-left:53px ;
+    }
+    
+    
+    .sing-btn{
+      width: 35px;
+      height: 30px;
+      font-family: 'Vazir';
+      color: black;
+      background-color: #F2F2F7;
+      border-radius: 5px;
+      border:1px solid #F2F2F7;
+      cursor: pointer;
+      box-shadow: 0px 0px 1px darkgray;
+    
+    }
+    
+    .login-btn {
+      background: orange;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-family: 'Vazir';
+      cursor: pointer;
+    
+    }
+  
+  .baner{
+    display: flex;
+    margin-top: 60px;
+  }
+
+  .baner h3{
+    font-family: 'bold';
+    font-size: 32px;
+    margin: 24px 72px;
+  }
+
+  .baner p{
+    font-family: 'shabnamttf';
+    font-size: 18px;
+    margin-right: -1%;
+    padding:14px 44px;
+  
+  }
+
+    .course-section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .course-header {
+      margin-bottom: 15px;
+    }
+
+    .course-header h2 {
+      margin: 8px;
+      font-size: 24px;
+      font-family: 'shabnam';
+      padding: 2px 118px;
+    }
+    
+
+    .course-header p{
+     padding: 16px 127px;
+     font-size: 18px;
+     font-family: 'shabnamttf';
+    }
+
+    .course-header button {
+      width: 8%;
+      font-family: 'Vazir';
+      color: black;
+      background-color: #F2F2F7;
+      border-radius: 5px;
+      border: 1px solid #F2F2F7;
+      cursor: pointer;
+      box-shadow: 0px 0px 1px darkgray;
+      margin-right: 82%;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    .course-images {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .course-images img {
+      width: 27%;
+      border-radius:8px;
+    }
+
+    .course-info {
+      display: flex;
+      gap:17px;
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 21px;
+      padding:2px 133px;
+      border-radius: 5px;
+      border: 1px black;
+    }
+
+    .course-info div{
+      border:1px solid #F1F1F3;
+      border-radius:4px;
+      padding:13px 18px;
+      font-family: 'shabnamttf';
+      }
+
+      .info-p {
+        font-family: 'vazir';
+        font-size: 14px;
+        margin-right: 74%;
+        color: black;
+      }
+
+
+    .curriculum {
+     
+      padding: 15px;
+    }
+
+    .curriculum-title {
+      font-family: bold;
+      
+      font-size: 18px;
+      border:1px solid #F1F1F3;
+      border-top-left-radius:10px;
+      border-top-right-radius: 10px;
+      padding:10px 20px;
+      background: #f7f6f424;
+    }
+
+    .curriculum-list {
+      display: flex;
+      border:1px solid #F1F1F3;
+      background:#f7f6f424;
+    
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+    }
+
+    .curriculum-item {
+      background: white;
+      padding: 10px 15px;
+      box-shadow: 1px 0 0 rgba(0,0,0,0.1);
+      flex: 1 0 4px;
+      text-align: center;
+    }
+
+    .curriculum-item span {
+      display: block;
+      font-size: 48px;
+      font-family: 'bold';
+      margin-bottom: 5px;
+    }
+  
+    .curriculum-item p{
+      font-family: 'vazir';
+      font-size: 18px;
+    }
+  
+/*foter*/
+.footer {
+  background-color: #f8f8f8;
+  padding:24px 19px 17px;
+  font-size: 14px;
+  direction: rtl;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.img-logo1 {
+  width: 32px;
+  margin-right: -4px;
+  height: 32px;
+
+}
+
+.footer-img{
+  width: 17px;
+  height: 15px;
+}
+
+.footer-contact p{
+  font-family: 'shabnam';
+  font-size: 14px;
+}
+
+.footer-link{
+  margin-top: -18px;
+}
+
+.footer-link h4{
+  margin-right: 90%;
+  font-weight: bold;
+  font-family: 'vazir';
+  font-size: 16px;
+  
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: #333;
+  margin-right: 530px;
+}
+
+
+.footer-links h4,
+.footer-social h4 {
+  margin-top: 4px;
+  font-weight: bold;
+  font-family: 'vazir';
+  font-size: 16px;
+}
+
+.footer-links ul,
+.footer-link ul {
+  list-style: none;
+  padding: 0px;
+  font-family: 'shabnamttf';
+  font-size: 14px;
+
+}
+
+
+.footer-links ul li a{
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+.footer-social a {
+  margin-left: 10px;
+}
+
+.footer-social img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+}
